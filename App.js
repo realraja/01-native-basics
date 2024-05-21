@@ -12,7 +12,7 @@ export default function App() {
       <Stack.Navigator initialRouteName='Home'>
         <Stack.Screen name='Home' component={Home} />
         <Stack.Screen name='Screen1' component={Screen1} />
-        <Stack.Screen name='Screen' component={Screen2} />
+        <Stack.Screen name='Screen' component={Screen2} options={{headerShown:false}} />
       </Stack.Navigator>
     </NavigationContainer>
   );
